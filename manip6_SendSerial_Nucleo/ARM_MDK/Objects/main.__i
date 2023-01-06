@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\..\Libraries\CMSIS\CM3\CoreSupport -I ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc
+-IC:\Users\csgol\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="533" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD
+-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d "..\main.c"
